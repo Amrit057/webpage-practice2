@@ -1,0 +1,128 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  }
+.head{
+  /* background-color: blue; */
+  /* background-color: #556B2F; */
+  height: 100px;
+  font-family: 'Tapestry', cursive;
+  
+}
+
+.greet h2{
+ border-radius: 20px;
+ background-color: #E9967A;
+ padding: 20px 20px;
+  
+}
+
+
+.greet{
+  /* color:#8B0000 ; */
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  /* background-color: aquamarine ; */
+  /* box-sizing: "border-box"; */
+display: flex;
+justify-content: center;
+align-items: center;
+  padding: 0;
+  margin: 0;
+  /* width: 1500px; */
+  
+}
+
+.nav{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  color: red;
+  font-weight: bold;
+
+}
+
+.nav1, .nav2, .nav3, .nav4, .nav5, .nav6{
+  /* background-color: chartreuse; */
+  background-color: yellow;
+}
+
+.nav1:hover, .nav2:hover, .nav3:hover, .nav4:hover, .nav5:hover, .nav6:hover{
+  color:#556B2F;
+  transform: scale(1.5);
+}
+.img_div{
+  display: flex;
+  justify-content: center;
+  background-color:aquamarine;
+}
+
+.img_div img{
+  width: 300px;
+  height: 300px; 
+}
+
+img{
+  padding: 2px;
+}
+
+img:hover{
+  transform: scale(1.1);
+  border-radius: 20%;
+}
+
+.time{
+  font-family: 'Tapestry', cursive;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  /* color: white; */
+  font-weight: bold;
+}
+
+.content{
+  font-family: 'Tapestry', cursive;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: orange
+}
+
+.service_div{
+  font-family: 'Tapestry', cursive;
+  width: 300px;
+}
+
+.about_div{
+  width: 500px;
+  text-align: justify;
+}
+
+.about{
+  color: brown;
+}
+
+.contact_div{
+  width: 250px;
+}
+
+.contact{
+  color: brown;
+}
+
+
+.about:hover, .service:hover, .contact:hover{
+  color: green;
+  font-size: xx-large;
+
+}
+
+.service{
+  color: brown;
+  
+}
+
+.mission{
+  color: gray;
+}
+
+
